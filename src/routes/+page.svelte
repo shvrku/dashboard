@@ -1,7 +1,7 @@
 <script>
     import Navbar from "../lib/components/navbar.svelte";
     import Schedule from "../lib/components/schedule.svelte";
-    import Note from "../lib/components/note.svelte";
+    import Note from "../lib/components/note-insert.svelte";
     import NoteList from "../lib/components/note-list.svelte";
 </script>
 
