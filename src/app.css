@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "AHSM";
+    src: url("/Fonts/AHSM.woff");
+}
+@font-face {
+    font-family: "AHSRI";
+    src: url("/Fonts/AHSRI.woff");
+}
+@font-face {
+    font-family: "AHSR";
+    src: url("/Fonts/AHSR.woff");
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-family: AHSR;
+    background-color: #000; 
+    color : #EDEDED;
+}
+
+.Gcard {
+   background-color: #111;
+   padding: 1.5rem;
+   border: 1px solid;
+   border-color: #333;
+   border-radius: 0.6rem;
+   transition: 0.3s;
+}
+
+.Gcard:hover {
+    background-color: #141414;
+    padding: 1.5rem;
+    border: 1px solid;
+    border-color: #333;
+    border-radius: 0.6rem;
+ }
