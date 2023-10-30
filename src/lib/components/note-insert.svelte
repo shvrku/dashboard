@@ -15,7 +15,7 @@
     }
   }
 
-  import { signIn } from '@auth/sveltekit/client';
+  import { signIn, signOut } from '@auth/sveltekit/client';
   import { page } from '$app/stores';
 </script>
 
@@ -33,7 +33,8 @@
         </div>
         <button type="submit" class="mt-4 bg-FrostySilver hover:TranquilTaupe md:text-base text-sm text-bText py-2 px-4 rounded">
           Submit
-        </button>
+        </button> 
+        <button on:click={signOut} class="bg-FrostySilver md:hidden ml-5 hover:TranquilTaupe md:text-base  text-sm text-bText py-2 px-4 rounded">Sign out</button>
       </form>
     {:else}
       <p class="mt-4">You're not an approved user</p>
