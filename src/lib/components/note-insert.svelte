@@ -3,17 +3,7 @@
   let content = "";
   
   function handleSubmit(event) {
-    event.preventDefault();
-
-    // Check if the user is authorized before performing form submission
-    if ($page.data.session.user.email === "shvrku@gmail.com" ) {
-      topic = "";
-      content = "";
-    } else {
-      // Handle unauthorized access
-      console.log("Unauthorized access");
-    }
-  }
+    event.preventDefault(); }
 
   import { signIn, signOut } from '@auth/sveltekit/client';
   import { page } from '$app/stores';

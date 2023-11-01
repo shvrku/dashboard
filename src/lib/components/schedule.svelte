@@ -6,42 +6,56 @@
         <th>Wednesday</th>
         <th>Thursday</th>
         <th>Friday</th>
+        <th>Saturday</th>
     </tr>
     <tr class=" font-mono text-center">
-        <td>8:00 AM - 9:30 AM</td>
-        <td>English</td>
-        <td>N/A</td>
-        <td>Physcis</td>
-        <td>N/A</td>
+        <td>9:00 AM - 10:30 AM</td>
+        <td>ESL</td>
+        <td>A Maths</td>
         <td>Chemistry</td>
+        <td>Grammar</td>
+        <td>ESL</td>
+        <td>CS</td>
     </tr>
     <tr class=" font-mono text-center">
-        <td>9:30 AM - 11:00 AM</td>
-        <td>Computing</td>
-        <td>maths</td>
-        <td>English</td>
-        <td>Maths</td>
-        <td>Biology</td>
-    </tr>
-    <tr class=" font-mono text-center">
-        <td>11:00 AM - 12:00 PM</td>
-        <td colspan="5">Break Time</td>
-    </tr>
-    <tr class=" font-mono text-center">
-        <td>12:00 PM - 01:30 PM</td>
-        <td>Physcis</td>
-        <td>Maths</td>
+        <td>10:30 AM - 12:00 PM</td>
         <td>Chemistry</td>
-        <td>English</td>
         <td>Maths</td>
+        <td>A Maths</td>
+        <td>Business</td>
+        <td>Business</td>
+        <td>ICT</td>
     </tr>
     <tr class=" font-mono text-center">
-        <td>1:30 PM - 03:00 PM</td>
-        <td>Contact Time</td>
-        <td>English</td>
-        <td>Computing</td>
-        <td>Biology</td>
-        <td>Contact Time</td>
+        <td>12:00 PM - 12:30 PM</td>
+        <td colspan="6">Break Time</td>
+    </tr>
+    <tr class=" font-mono text-center">
+        <td>12:30 PM - 2:00 PM</td>
+        <td>Physcis</td>
+        <td>Chemistry</td>
+        <td>ICT</td>
+        <td>ICT</td>
+        <td>A Maths</td>
+        <td>Physcis</td>
+    </tr>
+    <tr class=" font-mono text-center">
+        <td>2:00 PM - 3:30 PM</td>
+        <td>Maths</td>
+        <td>Business</td>
+        <td>Maths</td>
+        <td>CS</td>
+        <td>Physcis</td>
+        <td>Self-Study</td>
+    </tr>
+    <tr class=" font-mono text-center">
+        <td>3:30 PM - 5:00 PM</td>
+        <td>EFL</td>
+        <td>Self-Study</td>
+        <td>ESL</td>
+        <td>EFL</td>
+        <td>Self-Study</td>
+        <td>Self-Study</td>
     </tr>
 </table>
 
