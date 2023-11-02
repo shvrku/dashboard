@@ -19,6 +19,8 @@
 	"type": "module",
 	"dependencies": {
 		"@auth/core": "^0.18.0",
-		"@auth/sveltekit": "^0.3.11"
+		"@auth/sveltekit": "^0.3.11",
+		"@neondatabase/serverless": "^0.6.0",
+		"postgres": "^3.4.2"
 	}
 }

@@ -21,5 +21,4 @@
         <NoteList />
     </section>
 
-
 </div>
