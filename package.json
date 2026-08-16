@@ -2,6 +2,9 @@
 	"name": "dashboard",
 	"version": "0.0.1",
 	"private": true,
+	"engines": {
+		"node": ">=24"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -22,5 +25,9 @@
 		"@auth/sveltekit": "^0.3.11",
 		"@neondatabase/serverless": "^0.6.0",
 		"postgres": "^3.4.2"
+	},
+	"allowScripts": {
+		"@sveltejs/kit@1.27.1": true,
+		"esbuild@0.18.20": true
 	}
 }
